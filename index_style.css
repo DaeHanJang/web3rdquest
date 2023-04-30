@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+ul { 
+    list-style-type: none;
+}
+header {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+header .inner_box {
+    width: 1180px;
+    height: 120px;
+    margin: 0px auto;
+    position: relative;
+}
+header .inner_box h1 {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+#global_navigation_bar {
+    margin-right: 30px;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#global_navigation_bar ul li {
+    display: inline;
+}
+#global_navigation_bar ul li a{
+    margin-left: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+#global_navigation_bar ul li a:hover {
+    color: red;
+    cursor: pointer
+}
+#utility_bar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+#utility_bar li {
+    display: inline;
+}
+#utility_bar li a{
+    margin-left: 15px;
+    float: left;
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+}
+#main_image {
+    width: 100%;
+    height: 590px;
+    position: relative;
+}
+#main_image img {
+    width: 100%;
+    height: 590px;
+}
+#main_image .inner_box {
+    width: 800px;
+    height: 300px;
+    margin-left: -400px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    font-size: 25px;
+    color: white;
+}
+#main_image .inner_box::first-line {
+    font-size: 80px;
+    font-weight: bold;
+}
+section {
+    width: 1180px;
+    height: 450px;
+    margin: 0px auto;
+    text-align: center;
+}
+section h3 {
+    margin: 50px auto;
+}
+article {
+    width: 230px;
+    margin: 0px 32.5px;
+    float: left;
+    text-align: left;
+}
+article img {
+    width: 230px;
+    height: 163px;
+    display: block;
+}
+article p {
+    font-size: 13px;
+}
+article p::first-line {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+}
+footer {
+    width: 100%;
+    background-color: #010025;
+    color: grey;
+}
+footer .inner_box {
+    width: 1000px;
+    height: 100px;
+    margin: 0px auto;
+    position: relative;
+}
+footer .inner_box h1 {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+#footer_menu_bar {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+#footer_menu_bar ul li {
+    display: inline-block;
+    border-left: 1px solid grey;
+}
+#footer_menu_bar ul li:nth-child(1) {
+    border: none;
+}
+#footer_menu_bar ul li a {
+    padding: 0px 20px;
+    text-decoration: none;
+    float: right;
+    color: gray;
+}
+#footer_menu_bar ul li a:hover {
+    color: red;
+}
+footer p {
+    width: 990px;
+    height: 100px;
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 20px;
+}

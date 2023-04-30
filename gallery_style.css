@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+ul { 
+    list-style-type: none;
+}
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+header .inner_box {
+    width: 1180px;
+    height: 120px;
+    margin: 0px auto;
+    position: relative;
+}
+header .inner_box h1 {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+header .inner_box h1 a {
+    color: black;
+    text-decoration: none;
+}
+#global_navigation_bar {
+    margin-right: 30px;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#global_navigation_bar ul li {
+    display: inline;
+}
+#global_navigation_bar ul li a{
+    margin-left: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+#global_navigation_bar ul li a:hover {
+    color: red;
+    cursor: pointer
+}
+#utility_bar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+#utility_bar li {
+    display: inline;
+}
+#utility_bar li a{
+    margin-left: 15px;
+    float: left;
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+}
+section {
+    width: 1000px;
+    margin: 0px auto;
+    padding-top: 120px;
+}
+article {
+    margin-top: 10px;
+    float: left;
+}
+article img {
+    width: inherit;
+    height: inherit;
+}
+article p {
+    position: absolute;
+    font-weight: bold;
+    color: white;
+}
+.a1 {
+    width: 700px;
+    height: 400px;
+    margin-right: 10px;
+    position: relative;
+}
+.a1 p {
+    right: 10px;
+    bottom: 10px;
+    font-size: 30px;
+}
+.a2 {
+    width: 290px;
+    height: 190px;
+    position: relative;
+}
+.a2 p {
+    top: 50px;
+    left: 10px;
+}
+.a3 {
+    width: 290px;
+    height: 95px;
+    position: relative;
+}
+.a3 p {
+    right: 10px;
+    bottom: 20px;
+}
+section div {
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.a4 {
+    width: 490px;
+    height: 240px;
+    margin-right: 10px;
+    position: relative;
+}
+.a4:nth-child(1) p {
+    width: 300px;
+    top: 160px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 13px;
+    color: black;
+}
+.a4:nth-child(2) p {
+    right: 20px;
+    bottom: 30px;
+    font-size: 30px;
+    color: gold;
+}
+.a5 {
+    width: 500px;
+    height: 490px;
+    position: relative;
+}
+.a6 {
+    width: 1000px;
+    height: 371px;
+    position: relative;
+    text-align: center;
+    line-height: 371px;
+}
+.a6 p {
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+}
+.a7 {
+    width: 1000px;
+    height: 361px;
+    position: relative;
+    line-height: 40px;
+}
+.a7 p {
+    width: 450px;
+    height: 150px;
+    right: 30px;
+    bottom: 40px;
+    font-size: 20px;
+}
+.a7 .my_font_deco {
+    font-size: 30px;
+}
